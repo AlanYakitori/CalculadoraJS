@@ -7,7 +7,6 @@ const display = new Display(displayValorAnterior, displayValorActual);
 
 
 botonesNumeros.forEach(boton => {
-    console.log('boton');
     boton.addEventListener('click', () => display.agregarNumero(boton.innerHTML));
 });
 

@@ -29,8 +29,6 @@ class Display {
     }
 
     computar(tipo) {
-        console.log(tipo);
-        console.log(this.tipoOperacion);
         this.tipoOperacion !== 'igual' && this.calcular();
         this.tipoOperacion = tipo;
         
@@ -46,7 +44,6 @@ class Display {
     }
 
     imprimirValores() {
-        console.log('imprime valores');
         this.displayValorActual.textContent = this.valorActual;
         this.displayValorAnterior.textContent = `${this.valorAnterior} ${this.signos[this.tipoOperacion] || ''}`;
     }
