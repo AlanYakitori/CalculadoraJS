@@ -15,7 +15,9 @@ class Calculadora {
 		return Math.pow(num1, num2);
 	}
 	raiz(num1, num2) {
+		console.log('se hace una raiz');
 		return Math.pow(num2 , 1/num1);
+
 	}
 
 }
