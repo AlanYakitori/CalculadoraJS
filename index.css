@@ -52,9 +52,6 @@ button:focus {
     outline: none;
 }
 
-.col-2 {
-    grid-column: span 2;
-}
 
 .display {
     grid-column: 1 / -1;
